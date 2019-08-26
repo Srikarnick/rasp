@@ -16,8 +16,7 @@ from iothub_client import IoTHubMessage, IoTHubMessageDispositionResult, IoTHubE
 # The device connection string to authenticate the device with your IoT hub.
 # Using the Azure CLI:
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
-CONNECTION_STRING = "HostName=srikariothub.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=LP4oxj6Uj667Ni5M5dV+3rZhKz4Va4W3tRkpjbwjJis="
-
+CONNECTION_STRING = "HostName=srikariothub.azure-devices.net;DeviceId=srikardevice;SharedAccessKey=K/sDmpj//o5t/N7696wrJFeOh9NdjUMHtQEZufofZsM="
 # Using the MQTT protocol.
 PROTOCOL = IoTHubTransportProvider.MQTT
 MESSAGE_TIMEOUT = 10000
